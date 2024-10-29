@@ -1,8 +1,8 @@
-def decimal_to_binary(number):
-    binary_string = bin(number)[2:]
+def decimalToBinary(num):
+    binary_string = bin(num)[2:]
     print(binary_string)
-user_input = int(input("what ya want"))
-if user_input >= 0:
-    decimal_to_binary(user_input)
+theThing = int(input("what ya want"))
+if theThing >= 0:
+    decimalToBinary(theThing)
 else:
     print("you put something that doesn't work, stop dat >:(")
